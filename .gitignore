@@ -1,0 +1,8 @@
+# OS junk files
+*.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Base de Datos Completa
+properatti.csv
