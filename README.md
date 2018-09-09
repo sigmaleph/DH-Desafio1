@@ -2,7 +2,6 @@
 <span style="color:red"> <em>ACTUALIZACIÓN A SEP 9</em> </span>
 
 **Cleaning**  hace toda la limpieza de datos, ordena columnas, mejora la informacion de habitaciones usando regex de `descripcion`, y agrega columnas con dummy que indica si existen o no las principales amenities. Devuelve un archivo *properatti_clean&complete.csv* con el 
-- Departamentos en Capital con *lat* y *lon*, *precio por m2* y *sup total* no nulos.
 
 **Polishing** enriquece el df original con info de distancias a comisarias, subtes, trenes y/o premetros. Devuelve un archivo *properatti_geo.csv* que tiene el df listo para realizar las consultas necesarias para resolver las preguntas que se realicen.
 
